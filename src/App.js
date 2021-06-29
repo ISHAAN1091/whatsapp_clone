@@ -1,9 +1,13 @@
 import "./App.css";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
 function App() {
     return (
-        <div className="App">
-            <h1>Let's Build WhatsApp Clone</h1>
+        <div className="app">
+            <div className="app__body">
+                <Sidebar />
+                {/* Chat */}
+            </div>
         </div>
     );
 }
